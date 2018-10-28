@@ -7,7 +7,7 @@ $('.carousel').carousel({
 
 
 setTimeout(function(){
-    let printText = "Front-End Developer";
+    let printText = "FRONT-END DEVELOPER";
     let i = 0;
     let cl = setInterval(function(){
         if (document.getElementById("autoPrintTextId").innerHTML.length != printText.length) {

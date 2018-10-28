@@ -1,4 +1,5 @@
 .carousel-inner {
+    position:relative;
     height: 100vh;
     overflow: hidden; 
 }
@@ -12,14 +13,6 @@
 .carousel .active.left {left:0;opacity:0;z-index:2;}
 .carousel .next {left:0;opacity:1;z-index:1;}
 
-#autoPrintTextId {
-    font-family: fantasy;
-    height: 200px;
-    text-align: center;
-    padding-top: 100px;
-
-}
-
 .container-fluid {
     position: absolute;
     top: 60px;
@@ -29,11 +22,26 @@
     
 }
 
+#autoPrintTextId {
+    font-family: Fantasy, Arial, Helvetica, sans-serif;
+    height: 200px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 500%;
+
+}
+
+.lead {
+    font-size: 150%;
+}
+
 
 
 /* Scroll */
 .cont {
     position:relative;
+    padding-bottom: 0%;
     top:100px;
 }
 .mouse {

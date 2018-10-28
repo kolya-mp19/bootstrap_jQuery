@@ -22,6 +22,7 @@ $(document).ready (function(){
                     $(".loader").offset({top:0}).height(clientHeight).fadeOut(100);
                     setTimeout (function(){
                         $(".mainSite").fadeIn(1000);
+                        $("body").css({"background-color" : "white"});
                     },100)
                     
                 }

@@ -9,6 +9,18 @@ body {
 
 .mainSite {
     display: none;
-    background: #00bfff;
+    /* background: #00bfff; */
+
+}
+
+.example {
+    height: 100px;
+    text-align: center;
+    font-size: 150%;
+}
+
+.card-deck {
+    margin-right: 0px;
+    margin-left: 0px;
 
 }
