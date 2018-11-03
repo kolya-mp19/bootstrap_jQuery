@@ -1,27 +1,87 @@
-body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    
-}
-
-
-
 .mainSite {
     display: none;
-
-    /* background: #00bfff; */
-
 }
 
 .example {
     height: 100px;
     text-align: center;
-    font-size: 150%;
 }
 
 .card-deck {
-    margin-right: 0px;
-    margin-left: 0px;
+    margin: auto 0px auto 0px;
+}
 
+/* Перетекающий фон */
+.gradient-1-bg {
+    height: 200px;
+  }
+  
+  .gradient-1-bg {
+      background: linear-gradient(117deg, #18aacf, #00CD8D);
+      background-attachment: scroll;
+      background-position: 0% 0%;
+      background-repeat: repeat;
+  }
+  .gradient-1-bg.reverse {
+      background: linear-gradient(117deg, #00CD8D, #18aacf);
+      background-attachment: scroll;
+      background-position: 0% 0%;
+      background-repeat: repeat;
+  }
+  
+  .gradient-1-bg.animate {
+      background: linear-gradient(117deg, #18aacf, #00CD8D, #18aacf);
+      background-attachment: scroll;
+      background-position: 0% 0%;
+      background-size: 200% 200%;
+      background-repeat: repeat;
+  
+      -webkit-animation: AnimationName 15s ease-in-out infinite;
+      -moz-animation: AnimationName 15s ease-in-out infinite;
+      animation: AnimationName 15s ease-in-out infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%   {background-position: 0% 14%}
+      50%  {background-position: 100% 87%}
+      100% {background-position: 0% 14%}
+  }
+  @-moz-keyframes AnimationName {
+      0%   {background-position: 0% 14%}
+      50%  {background-position: 100% 87%}
+      100% {background-position: 0% 14%}
+  }
+  @keyframes AnimationName {
+      0%   {background-position: 0% 14%}
+      50%  {background-position: 100% 87%}
+      100% {background-position: 0% 14%}
+  }
+/* Перетекающий фон сделан*/
+
+
+/*button panel */
+.ghost-button {
+    color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    font-size: 24px;
+    padding: 9px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: "HelveticaLTStd-Roman", Arial, sans-serif;
+    min-width: 120px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.ghost-button:hover, .ghost-button:active {
+    color:#fff;
+    background: none;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+#footer {
+    text-align: center;
+    padding: 0;
 }

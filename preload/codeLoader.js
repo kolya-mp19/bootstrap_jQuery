@@ -18,7 +18,7 @@ $(document).ready (function(){
                 j += 10;
                 if ( j > clientHeight) {
                     clearInterval(clockHeight);
-                    $("body").css({"background-color" : "#D1F3FE"});
+                    $("body").css({"background-color" : "#18aacf"});
                     $(".loader").offset({top:0}).height(clientHeight).fadeOut(100);
                     setTimeout (function(){
                         $(".mainSite").fadeIn(1000);
