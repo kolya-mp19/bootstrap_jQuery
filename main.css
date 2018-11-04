@@ -1,21 +1,23 @@
 .mainSite {
     display: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .example {
-    height: 100px;
+    margin: 20px auto 20px auto;
     text-align: center;
 }
 
-.card-deck {
-    margin: auto 0px auto 0px;
+.col-sm-12 {
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 /* Перетекающий фон */
-.gradient-1-bg {
+/* .gradient-1-bg {
     height: 200px;
   }
-  
+   */
   .gradient-1-bg {
       background: linear-gradient(117deg, #18aacf, #00CD8D);
       background-attachment: scroll;
@@ -36,9 +38,9 @@
       background-size: 200% 200%;
       background-repeat: repeat;
   
-      -webkit-animation: AnimationName 15s ease-in-out infinite;
-      -moz-animation: AnimationName 15s ease-in-out infinite;
-      animation: AnimationName 15s ease-in-out infinite;
+      -webkit-animation: AnimationName 10s ease-in-out infinite;
+      -moz-animation: AnimationName 10s ease-in-out infinite;
+      animation: AnimationName 10s ease-in-out infinite;
   }
   
   @-webkit-keyframes AnimationName {
@@ -81,7 +83,9 @@
     opacity: 0.8;
   }
 
-#footer {
+.footer {
+    color: white;
     text-align: center;
-    padding: 0;
+    padding: 1em;
+
 }

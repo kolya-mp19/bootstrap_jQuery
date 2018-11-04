@@ -19,33 +19,41 @@
     <div class="loader" id="loaderId"></div>
     
     <!-- Весь сайт после прелоадреа -->
-    <div class="mainSite" id="mainSiteId">
+
       
 <!--      -->
 <!-- HEAD -->
 <!--      -->
 
       <!-- Карусель -->
-      <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
-        <!-- Смена фона -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="img-fluid w-100" src="img/slide1.jpg" alt="First slide">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid w-100" src="img/slide2.jpg" alt="Second slide">
-          </div>
-          <div class="carousel-item">
-            <img class="img-fluid w-100" src="img/slide3.jpg" alt="Third slide">
+      <div class="container-fluid mainSite" id="mainSiteId">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel">
+              <!-- Смена фона -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="img-fluid w-100" src="img/slide1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid w-100" src="img/slide2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="img-fluid w-100" src="img/slide3.jpg" alt="Third slide">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+
+
 
     
 <!-- bodySite -->
 
         <!-- содержание на карусели-->
-<div class="container-fluid" id="header">
+<div class="container-fluid header mainSite" id="mainSiteId">
     <div class="row align-items-center" id="rowfirst">
       <div class="col-sm-4">
         <div>menu</div>
@@ -105,59 +113,62 @@
 
 
         <!-- пример работ-->
-<div class="container-fluid">
-  <div class="row align-items-center">
+<div class="container-fluid mainSite" id="mainSiteId">
+  <div class="row">
     <div class="col-sm-12">
       <div class="example"><h2>Примеры моих работ</h2></div>
     </div>
   </div>
 
-  <div class="row">
-      <div class="card-deck">
-    <div class="card border-primary mb-3">
-      <div class="card-body">
-        <h5 class="card-title"><a href="https://kolya-mp19.github.io/site-portfolio-HTML/">Мой первый сайт</a></h5>
-        <p class="card-text">После начала изучения Web это была моя самая первая работа</p>
-      </div>
-      <img class="card-img-top" src="img/sitePortfolio.png" alt="Card image cap">
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-    <div class="card border-primary mb-3">
-      <div class="card-body">
-        <h5 class="card-title"><a href="https://kolya-mp19.github.io/Memory_Game/">Карточная игра на память</a></h5>
-        <p class="card-text">Карточная игра реализованная на JavaScript</p>
-      </div>
-      <img class="card-img-top" src="img/memoryGame.png" alt="Card image cap">
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
+  <div class="row align-items-center">
+    <div class="col-sm-4">
+      <div class="card border-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://kolya-mp19.github.io/site-portfolio-HTML/">Мой первый сайт</a></h5>
+          <p class="card-text">После начала изучения Web это была моя самая первая работа</p>
+        </div>
+        <img class="card-img-top" src="img/sitePortfolio.png" alt="Card image cap">
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
       </div>
     </div>
-    <div class="card border-primary mb-3">
-      <div class="card-body">
-        <h5 class="card-title"><a href="https://kolya-mp19.github.io/Game-X-O/">Игра крестики-нолики</a></h5>
-        <p class="card-text">Всем известная игра реализованная на JavaScript</p>
-      </div>
-      <img class="card-img-top" src="img/x-o.png" alt="Card image cap">
-      <div class="card-footer">
-        <small class="text-muted">Last updated 3 mins ago</small>
-      </div>
-    </div>
-      </div>
-  </div>
 
+    <div class="col-sm-4">
+      <div class="card border-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://kolya-mp19.github.io/Memory_Game/">Карточная игра на память</a></h5>
+          <p class="card-text">Карточная игра реализованная на JavaScript.....</p>
+        </div>
+        <img class="card-img-top" src="img/memoryGame.png" alt="Card image cap">
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="card border-primary mb-3">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://kolya-mp19.github.io/Game-X-O/">Игра крестики-нолики</a></h5>
+          <p class="card-text">Всем известная игра реализованная на JavaScript</p>
+        </div>
+        <img class="card-img-top" src="img/x-o.png" alt="Card image cap">
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <!-- footer -->
-<div class="container-fluid" id="footer">
-  <div class="row align-items-center">
+<div class="container-fluid mainSite" id="mainSiteId">
+  <div class="row">
     <div class="col-sm-12">
       <div class = "footer gradient-1-bg animate">
-        <h1>
-          <span>Хотите со мной сотрудничать?</span>
-          <a href="mailto:kolya-mp19@mail.ru" class="ghost-button">Say Hello</a>
-        </h1>
+        <h2>Хотите со мной сотрудничать? Возникли вопросы или нашли ошибку при code review?</h2>
+        <h2>Напишите мне! <a href="mailto:kolya-mp19@mail.ru" class="ghost-button">Say Hello</a></h2>
       </div>
     </div>
   </div>
@@ -165,7 +176,7 @@
 
 
 
-    </div>
+
 
 
     

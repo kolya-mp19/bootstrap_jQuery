@@ -2,7 +2,10 @@
     position:relative;
     height: 100vh;
     overflow: hidden; 
+    /* min-height: 600px; */
 }
+
+
 
 .carousel-inner img {
     height: 100vh;
@@ -13,7 +16,7 @@
 .carousel .active.left {left:0;opacity:0;z-index:2;}
 .carousel .next {left:0;opacity:1;z-index:1;}
 
-#header {
+.header {
     position: absolute;
     top: 0px;
     color: white;
