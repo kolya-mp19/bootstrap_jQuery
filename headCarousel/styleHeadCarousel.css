@@ -29,6 +29,17 @@
     margin-top: 60px
 }
 
+ul.social {
+    margin: 0;
+    padding: 4px;
+}
+
+ul.social li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 15px; /* Поля вокруг текста */
+}
+
 #autoPrintTextId {
     font-family: Fantasy, Arial, Helvetica, sans-serif;
     height: 200px;
